@@ -1,0 +1,141 @@
+
+:root {
+    --bg-color-green: #38AF90;
+    --txt-color-dark-gray: #797979;
+    --txt-color-pink: #DD7E92;
+    --bg-color-black: #383838;
+    --txt-color-white: #FFF;
+    --bg-color-light-gray: #F0F0F0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: var(--bg-color-green);
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    padding: 0 10px;
+}
+
+/* Header styles */
+
+#page-title {
+    color: var(--txt-color-white);
+    font-size: 18px;
+    padding: 10px;
+}
+
+#user-image {
+    padding-left: 15px;
+}
+
+#latest-news {
+    color: var(--txt-color-dark-gray);
+    font-size: 24px;
+    text-align: center;
+    padding: 40px 0 8px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main a {
+    color: var(--txt-color-white);
+    font-size: 14px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.nav-items {
+    display: flex;
+    padding: 0 10px 0 0;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+/* Section "news" styles*/
+
+.the-news {
+    padding: 16px 13px 13px 13px;
+    margin-bottom: 28px;
+    background-color: var(--bg-color-light-gray);
+    box-shadow: 0 4px 4px var(--txt-color-dark-gray);
+    border-radius: 8px;
+}
+
+.main-news-title {
+    color: var(--bg-color-green);
+    font-size: 16px;
+}
+
+.intro-news {
+    color: var(--txt-color-dark-gray);
+    font-size: 12px;
+}
+
+.line {
+    border-top: 1px solid var(--bg-color-green);
+    height: 3px;
+}
+
+.date-of-news {
+    color: var(--bg-color-green);
+    font-size: 10px;
+    padding-bottom: 12px;
+}
+
+.news-content {
+    color: var(--txt-color-dark-gray);
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.read-more {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--txt-color-pink);
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.button-container a {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--txt-color-white);
+    text-decoration: none;
+}
+
+#more-news {
+    background-color: var(--txt-color-pink);
+    width: 244px;
+    height: 67px;
+    border: none;
+    border-radius: 8px;
+}
