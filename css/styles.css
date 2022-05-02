@@ -6,6 +6,7 @@
     --bg-color-black: #383838;
     --txt-color-white: #FFF;
     --bg-color-light-gray: #F0F0F0;
+    --txt-color-very-light-gray: #C4C4C4;
 }
 
 * {
@@ -166,6 +167,7 @@ header {
     margin-bottom: 30px;
     background-color: var(--txt-color-white);
     border-radius: 8px;
+    box-shadow: 0 4px 4px var(--txt-color-dark-gray);
 }
 
 .info-games {
@@ -199,4 +201,55 @@ header {
 .game-score {
     color: var(--bg-color-green);
     font-size: 36px;
+}
+
+/* section signup styles*/
+
+.signup-container {
+    padding: 40px 8px;
+}
+
+#signup-title {
+    color: var(--txt-color-dark-gray);
+    font-size: 24px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.form-container {
+    background-color: var(--bg-color-light-gray);
+    border-radius: 8px;
+    box-shadow: 0 4px 4px var(--txt-color-dark-gray);
+}
+
+form {
+    padding: 52px 8px 33px 8px;
+}
+
+.fill-button {
+    color: var(--txt-color-very-light-gray);
+    font-size: 16px;
+    width: 100%;
+    max-width: 642px;
+    margin-bottom: 20px;
+    height: 50px;
+    padding-left: 22px;
+}
+
+.lbl-ctrl-console {
+    color: var(--txt-color-dark-gray);
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+#ctrl-console-table {
+    color: var(--txt-color-dark-gray);
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+
+.receive-news-container {
+    color: var(--txt-color-dark-gray);
+    font-size: 16px;
+    padding-bottom: 47px;
 }
